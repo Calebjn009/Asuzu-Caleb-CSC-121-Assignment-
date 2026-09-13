@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Contact Maduka University Library for information, research assistance and library services.">
+
+    <title>Maduka University Library | Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="container header-content">
+
+<a href="index.html" class="logo">
+
+<img src="Image/MU-LOGO.jfif"
+     alt="Maduka University Logo">
+
+<span>Maduka University Library</span>
+
+</a>
+
+<button class="menu-toggle"
+        aria-label="Open navigation menu">
+    ☰
+</button>
+
+<nav class="main-nav"
+     aria-label="Main navigation">
+
+<ul>
+
+<li>
+<a href="index.html">Home</a>
+</li>
+
+<li>
+<a href="staff.html">Staff</a>
+</li>
+
+<li>
+<a href="rules.html">
+Rules &amp; Regulations
+</a>
+</li>
+
+<li>
+<a href="digital.html">
+Digital Section
+</a>
+</li>
+
+<li>
+<a href="contact.html" class="active">
+Contact
+</a>
+</li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+<div class="container">
+
+<p class="eyebrow">
+GET IN TOUCH
+</p>
+
+<h1>Contact the Library</h1>
+
+<p>
+Have a question? Contact the library for assistance
+with resources, borrowing and research services.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<div class="container contact-grid">
+
+
+<div class="contact-information">
+
+<h2>Library Contact Information</h2>
+
+<p>
+You can contact the library through the available
+university communication channels.
+</p>
+
+
+<div class="contact-item">
+
+<h3>📧 Email</h3>
+
+<a href="mailto:library@madukauniversity.edu.ng">
+library@madukauniversity.edu.ng
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<h3>🌐 Library Website</h3>
+
+<a href="https://library.madukauniversity.edu.ng/"
+   target="_blank"
+   rel="noopener noreferrer">
+
+Maduka University Library Portal
+
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<h3>📍 Location</h3>
+
+<p>
+Maduka University Campus
+</p>
+
+</div>
+
+</div>
+
+
+<div class="contact-form-wrapper">
+
+<h2>Send an Enquiry</h2>
+
+<form id="contactForm"
+      action="#"
+      method="post">
+
+<div class="form-group">
+
+<label for="name">
+Full Name
+</label>
+
+<input type="text"
+       id="name"
+       name="name"
+       placeholder="Enter your full name"
+       required>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="email">
+Email Address
+</label>
+
+<input type="email"
+       id="email"
+       name="email"
+       placeholder="Enter your email"
+       required>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="subject">
+Subject
+</label>
+
+<input type="text"
+       id="subject"
+       name="subject"
+       placeholder="Enter subject"
+       required>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="message">
+Message
+</label>
+
+<textarea id="message"
+          name="message"
+          rows="6"
+          placeholder="Type your message"
+          required></textarea>
+
+</div>
+
+
+<button type="submit"
+        class="btn btn-primary">
+
+Send Message
+
+</button>
+
+<p id="formMessage"
+   class="form-message"
+   aria-live="polite">
+</p>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- Book Eligibility -->
+
+<section class="section eligibility"
+         id="eligibility">
+
+<div class="container">
+
+<div class="section-heading">
+
+<p class="eyebrow">
+BOOK BORROWING
+</p>
+
+<h2>
+Check Book-Borrowing Eligibility
+</h2>
+
+<p>
+Enter your details below to perform a basic
+eligibility check.
+</p>
+
+</div>
+
+
+<form id="eligibilityForm"
+      class="eligibility-form">
+
+<div class="form-group">
+
+<label for="studentName">
+Full Name
+</label>
+
+<input type="text"
+       id="studentName"
+       name="studentName"
+       required>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="studentId">
+Student ID
+</label>
+
+<input type="text"
+       id="studentId"
+       name="studentId"
+       required>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="userType">
+User Type
+</label>
+
+<select id="userType"
+        name="userType"
+        required>
+
+<option value="">
+Select user type
+</option>
+
+<option value="student">
+Student
+</option>
+
+<option value="staff">
+Staff
+</option>
+
+</select>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="overdue">
+Do you have an overdue library book?
+</label>
+
+<select id="overdue"
+        name="overdue"
+        required>
+
+<option value="">
+Select an option
+</option>
+
+<option value="no">
+No
+</option>
+
+<option value="yes">
+Yes
+</option>
+
+</select>
+
+</div>
+
+
+<button type="submit"
+        class="btn btn-primary">
+
+Check Eligibility
+
+</button>
+
+<p id="eligibilityResult"
+   class="form-message"
+   aria-live="polite">
+</p>
+
+</form>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+
+<div class="footer-bottom">
+
+<div class="container">
+
+<p>
+&copy; 2026 Maduka University Library.
+All Rights Reserved.
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
